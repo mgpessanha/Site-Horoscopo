@@ -1,0 +1,562 @@
+/*-------------------------------------- SITE --------------------------------------*/
+
+body {
+    background-color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*fonte da página*/
+    overflow-y: scroll; /*barra na vertical para scrollar a página*/
+    padding: 0;
+    margin: 0;
+}
+.barraNavegacao {
+    background-color: rgb(112, 3, 48);
+    height: 100px;
+    width: 100%; 
+}
+.logo {
+    width: 80px;
+    padding-left: 60px;
+    padding-top: 10px; 
+    float: left; /*joga a logo para a esquerda*/
+}
+.nome { /*Signoland*/
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 120px;
+    float: left; /*joga o titulo para a esquerda*/
+    font-style: italic;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+#ul-navegacao {
+    display: inline; /*alinha o menu com a imagem*/
+    float: left; /*joga o menu para a direita*/
+    padding-top: 21px;
+    padding-right: 20px;
+}
+#li-navegacao {
+    list-style-type: none; /*deixa a lista sem estilo (bolinha preta do lado)*/
+    display: inline; /*alinha o menu*/
+    
+}
+.menu {
+    color: #000;
+    padding: 14px 16px; /*espaçamento vertical e horizontal*/
+    text-decoration: none;
+    font-size: 1.2rem;   
+}
+.menu:hover {
+    background-color: rgb(165, 4, 71);
+    color: #FFF;
+    border-radius: 20px; 
+}
+.pagina-aberta {
+    color: #000;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-decoration: underline black;
+}
+.login {
+    display: inline;
+    padding-top: 23px;
+    float: right; /*joga o titulo para a esquerda*/
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 0;
+}
+.perfil {
+    width: 40px;
+    height: 40px;
+    padding-right: 70px;
+    padding-top: 30px; 
+    float: right; /*joga a logo para a esquerda*/
+}
+.login-perfil {
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    padding: 6px;
+}
+.login-perfil:hover {
+    color: #FFF;
+    background-color: rgb(165, 4, 71);
+}
+main {
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+hr {
+    border: 2px solid rgb(165, 4, 71);
+}
+.barra-footer {
+    background-color: rgb(112, 3, 48);
+    height: 400px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+.identificacao-final {
+    background-color: rgb(76, 2, 33);
+    height: 70px;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    padding-top: 50px;
+}
+.logo-footer {
+    width: 80px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 250px; 
+    display: inline;
+}
+.nome-footer {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #000;
+    float: left;
+    padding-top: 30px;
+    padding-right: 570px;
+}
+.sobre-final {
+    font-weight: bold;
+    width: 45%;
+    padding-top: 10px;
+    padding-right: 350px;
+    padding-left: 80px;
+    float: right;
+    text-align: justify;
+    display: inline;
+}
+.redes-sociais {
+    width: 10%;
+    float: right;
+    display: inline;
+    padding-right: 150px;
+    padding-top: 10px; 
+}
+.nossas-redes {
+    display: inline;
+    float: right;
+    padding-top: 60px;
+    font-weight: bold;
+    padding-right: 160px;
+}
+
+/*-------------------------------------- HOME --------------------------------------*/
+
+#titulos-home {
+    font-size: 1.8rem;
+    color: rgb(165, 4, 71);
+    text-shadow: 2px 1px 2px rgb(76, 2, 33);
+}
+#paragrafos-home {
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 1px #000;
+}
+.astrologia-imagem {
+    float: right;   
+}
+p span.fogo {
+    color: rgb(207, 31, 31);
+    font-weight: bold;
+}
+p span.terra {
+    color: rgb(20, 196, 20);
+    font-weight: bold;
+}
+p span.ar {
+    color: rgb(220, 220, 52);
+    font-weight: bold;
+}
+p span.agua {
+    color: rgb(58, 58, 224);
+    font-weight: bold;
+}
+.elementos-imagem {
+    width: 65%;
+    padding-left: 200px;
+}
+figcaption {
+    padding-left: 200px;
+    color: rgb(165, 4, 71);
+    font-weight: bold;
+}
+
+/*-------------------------------------- HORÓSCOPO --------------------------------------*/
+
+.romano {
+    list-style-type: upper-roman;
+}
+.titulos-horoscopo {
+    font-size: 1.4rem;
+    color: rgb(165, 4, 71);
+    text-shadow: 1px 1px 2px rgb(76, 2, 33);
+}
+.paragrafos-horoscopo {
+    font-size: 1.1rem;
+    list-style-type: disc;
+    font-weight: bold;
+    width: 90%;
+}
+
+/*-------------------------------------- MAPA ASTRAL --------------------------------------*/
+
+#formulario-mapa {
+    text-align: justify;
+    padding-left: 330px;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 1px #000;
+}
+#mapa-astral {
+    border: 1px rgb(165, 4, 71);
+    border-width: 10px;
+    border-style: ridge;
+}
+#btncadastro {
+    background-color: rgb(130, 27, 70);
+    color: #FFF;
+    width: 180px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+input {
+    border: 2px #000;
+    border-style: outset;
+    border-radius: 6px;
+}
+#termos {
+    text-decoration: none;
+}
+#tenho-cadastro {
+    font-size: 0.7rem;
+    margin-left: 120px;
+}
+#termos-privacidade {
+    padding-left: 26px;
+}
+.propagandas {
+    padding-left: 10px;
+    width: 97%;
+}
+
+/*-------------------------------------- SIGNOS --------------------------------------*/
+
+#paragrafo-signos {
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 1px #000;
+    width: 80%;
+}
+.caracteristica-signos {
+    height: 1250px;
+}
+.imagem-aries { /*Aries*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-aries { /*Aries*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 350px;
+    color: rgb(213, 12, 76);
+}
+.neg-aries { /*Aries*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 128px; 
+    color: rgb(213, 12, 76);
+}
+.imagem-touro { /*Touro*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-touro { /*Touro*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 195px;
+    color: rgb(7, 170, 45);  
+}
+.neg-touro { /*Touro*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 226px;
+    color: rgb(7, 170, 45);
+}
+.imagem-gemeos { /*Gemeos*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-gemeos { /*Gemeos*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 205px;
+    color: rgb(249, 101, 9);  
+}
+.neg-gemeos { /*Gemeos*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 225px;
+    color: rgb(249, 101, 9);
+}
+.imagem-cancer { /*Cancer*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-cancer { /*Cancer*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 272px;
+    color: rgb(79, 108, 177);  
+}
+.neg-cancer { /*Cancer*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 253px;
+    color: rgb(79, 108, 177); 
+}
+.imagem-leao { /*Leao*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-leao { /*Leao*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 262px;
+    color: rgb(213, 12, 76);
+}
+.neg-leao { /*Leao*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 162px; 
+    color: rgb(213, 12, 76);
+}
+.imagem-virgem { /*Virgem*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-virgem { /*Virgem*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 232px;
+    color: rgb(7, 170, 45);  
+}
+.neg-virgem { /*Virgem*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 312px;
+    color: rgb(7, 170, 45);
+}
+.imagem-libra { /*Libra*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-libra { /*Libra*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 224px;
+    color: rgb(249, 101, 9);  
+}
+.neg-libra { /*Libra*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 392px;
+    color: rgb(249, 101, 9);
+}
+.imagem-escorpiao { /*Escorpiao*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-escorpiao { /*Escorpiao*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 220px;
+    color: rgb(79, 108, 177);  
+}
+.neg-escorpiao { /*Escorpiao*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 258px;
+    color: rgb(79, 108, 177); 
+}
+.imagem-sagitario { /*Sagitario*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-sagitario { /*Sagitario*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 173px;
+    color: rgb(213, 12, 76);
+}
+.neg-sagitario { /*Sagitario*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 172px; 
+    color: rgb(213, 12, 76);
+}
+.imagem-capricornio { /*Capricornio*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-capricornio { /*Capricornio*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 203px;
+    color: rgb(7, 170, 45);  
+}
+.neg-capricornio { /*Capricornio*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 213px;
+    color: rgb(7, 170, 45);
+}
+.imagem-aquario { /*Aquario*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-aquario { /*Aquario*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 413px;
+    color: rgb(249, 101, 9);  
+}
+.neg-aquario { /*Aquario*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 325px;
+    color: rgb(249, 101, 9);
+}
+.imagem-peixes { /*Peixes*/
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.pos-peixes { /*Peixes*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 268px;
+    color: rgb(79, 108, 177);  
+}
+.neg-peixes { /*Peixes*/
+    display: inline;
+    float: right;
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-right: 420px;
+    color: rgb(79, 108, 177); 
+}
+td {
+    font-size: 1rem;
+    text-shadow: 0px 0px 1px #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 197, 221);
+}
+table, tr, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px #000;
+    border-style: dashed;
+    border-collapse: collapse;
+    text-align: center;
+    height: 50px;
+}
+table {
+    width: 70%;
+}
+th {
+    font-size: 1.2rem;
+    text-shadow: 0px 1px 1px #000;
+    background-color: rgb(165, 4, 71);
+}
+
+
+
+
+
+
+
+
+

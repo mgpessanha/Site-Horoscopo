@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Astral | Signoland</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="barraNavegacao">
+            <img src="./assets/logo.png" alt="Logo site" class="logo">
+            <h1 class="nome">Signoland</h1>
+            <nav>
+                <ul id="ul-navegacao">
+                    <li id="li-navegacao"><a href="./index.html" class="menu">Home</a></li>
+                    <li id="li-navegacao"><a href="./horoscopo.html" class="menu">Horóscopo</a></li>
+                    <li id="li-navegacao"><a href="./mapa-astral.html" class="pagina-aberta">Mapa astral</a></li>
+                    <li id="li-navegacao"><a href="./signos.html" class="menu">Signos</a></li>
+                </ul>
+            </nav>
+            <img src="./assets/perfil.png" alt="Perfil site" class="perfil">
+            <h2 class="login"><a href="https://mystat.itstep.org/pt/auth/login/index?returnUrl=%2Fpt%2Fmain%2Fdashboard%2Fpage%2Findex" class="login-perfil">Login</a></h2>          
+        </div>
+    </header>
+    <main>
+        <br>
+        <div>
+            <h2 id="titulos-home">Descubra o seu Mapa Astral!</h2>
+            <p id="paragrafos-home">Veja a mandala completa e leia a combinação do signo com o seu ascendente.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="mapa-astral">
+            <br>
+            <br>
+            <form id="formulario-mapa" name="formulario-mapa" action="cadastro.php">
+                <label for="txtnome">Nome completo:</label> <input type="text" name="txtnome" id="txtnome">
+                <br><br>
+                <label for="txtemail">E-mail:</label> <input type="email" name="txtemail" id="txtemail">
+                <br><br>
+                <label for="txtsenha">Crie sua senha:</label> <input type="password" name="txtsenha" id="txtsenha">
+                <br><br>
+                <label for="txtsexo">Sexo:</label>
+                <br><br>
+                <input type="checkbox" name="feminino" value="Feminino"> <label for="txtfeminino">Feminino</label> <input type="checkbox" name="masculino" value="Masculino"> <label for="txtmasculino">Masculino</label>
+                <br><br>
+                <label for="txtdata">Data de nascimento:</label> <input type="date" name="txtdata" id="txtdata">
+                <br><br>
+                <label for="txthora">Hora de nascimento:</label> <input type="time" name="txthora" id="txthora">
+                <br><br>
+                <input type="checkbox" name="txtnulo" value="Nulo"> <label for="txtnulo">Não sei a hora de nascimento</label>
+                <br><br><br>
+                <input type="checkbox" name="txttermos" value="Termos"> <label for="txttermos" id="txttermos">Eu declaro que li e que concordo com os</label>
+                <p id="termos-privacidade"><a  id="termos" href="https://mystat.itstep.org/pt/auth/login/index?returnUrl=%2Fpt%2Fmain%2Fdashboard%2Fpage%2Findex">Termos de uso e Privacidade</a> do site Signoland.</p>
+                <br><br>
+                <button id="btncadastro" name="btncadastro" type="submit">Fazer Mapa Astral</button>
+                <br>
+                <p id="tenho-cadastro"><a href="https://mystat.itstep.org/pt/auth/login/index?returnUrl=%2Fpt%2Fmain%2Fdashboard%2Fpage%2Findex">< Já tenho cadastro.</a></p>
+                <br>
+            </form>
+        </div>
+        <br>
+        <br>
+        <figure>
+            <img src="./assets/propaganda.png" alt="Ilustração de propagandas." class="propagandas"> 
+        </figure> 
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="barra-footer">
+            <img src="./assets/logo.png" alt="Logo site" class="logo-footer">
+            <h2 class="nome-footer">Signoland</h2>
+            <p class="nossas-redes">Nossas redes</p>
+            <img src="./assets/redes-sociais.png" alt="Logos de redes sociais" class="redes-sociais">
+            <p class="sobre-final">O site Signoland é um espaço para quem deseja aprender astrologia e descobrir mais sobre si. Aqui você encontra conteúdos exclusivos e tudo sobre a influência e movimento dos astros, signos, ascendente, lua, previsões, trânsitos astrológicos e aspectos astrológicos que revelam mais sobre características e personalidades, desafios e emoções.</p>
+        </div>
+        <div class="identificacao-final">
+            &copy; Dona do Site: Maria Giulia Pessanha.
+        </div>
+    </footer>
+</body>
+</html>
+
+
